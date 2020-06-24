@@ -1,0 +1,7 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.open
+excel.importtext path ♥environment⟦USERPROFILE⟧\Desktop\data.csv destination B1 delimiter comma resultrows ♥importedRows resultcolumns ♥importedColumns
+dialog ‴Rows imported: ♥importedRows; Columns imported: ♥importedColumns‴
+excel.save ♥environment⟦USERPROFILE⟧\Desktop\imported_data.xlsx
+excel.close
